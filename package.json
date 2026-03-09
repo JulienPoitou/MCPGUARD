@@ -1,0 +1,62 @@
+{
+  "name": "mcpguard",
+  "version": "0.1.0",
+  "description": "The 1Password for AI Agents - Secure MCP credential manager",
+  "main": "dist/index.js",
+  "bin": {
+    "mcpguard": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "security",
+    "credentials",
+    "api-keys",
+    "vault",
+    "keychain",
+    "claude",
+    "cursor"
+  ],
+  "author": "Julien Poitou",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JulienPoitou/mcpguard"
+  },
+  "bugs": {
+    "url": "https://github.com/JulienPoitou/mcpguard/issues"
+  },
+  "homepage": "https://github.com/JulienPoitou/mcpguard#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.23",
+    "keytar": "^7.9.0",
+    "ora": "^8.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^20.11.0",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "@vitest/coverage-v8": "^1.2.0",
+    "eslint": "^8.56.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
