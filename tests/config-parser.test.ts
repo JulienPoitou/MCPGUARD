@@ -12,6 +12,15 @@ import {
   looksLikePlaintextKey,
 } from '../src/lib/config-parser.js';
 
+// Mock keytar to avoid libsecret dependency on CI
+vi.mock('keytar', () => ({
+  default: {
+    setPassword: vi.fn(),
+    getPassword: vi.fn(),
+    deletePassword: vi.fn(),
+  },
+}));
+
 const tmpDir = path.join(os.tmpdir(), 'mcpguard-tests');
 
 describe('Config Parser', () => {
