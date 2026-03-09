@@ -1,3 +1,4 @@
+import * as fs from 'fs';
 import * as path from 'path';
 import * as os from 'os';
 
@@ -60,7 +61,6 @@ export function getConfigPaths(): ConfigPath[] {
  * Get the primary config path based on what exists
  */
 export function getPrimaryConfigPath(): ConfigPath | null {
-  const fs = require('fs') as typeof import('fs');
   const paths = getConfigPaths();
 
   for (const configPath of paths) {
