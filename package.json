@@ -1,5 +1,5 @@
 {
-  "name": "mcpguard",
+  "name": "mcpguard-cli",
   "version": "0.1.0",
   "description": "The 1Password for AI Agents - Secure MCP credential manager",
   "main": "dist/index.js",
