@@ -1,10 +1,10 @@
-# 🔒 mcpguard
+# 🔒 mcpguard-cli
 
 > **The 1Password for AI Agents** — Secure MCP credential manager
 
-[![npm version](https://img.shields.io/npm/v/mcpguard.svg)](https://www.npmjs.com/package/mcpguard)
+[![npm version](https://img.shields.io/npm/v/mcpguard-cli.svg)](https://www.npmjs.com/package/mcpguard-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm downloads](https://img.shields.io/npm/dm/mcpguard)](https://www.npmjs.com/package/mcpguard)
+[![npm downloads](https://img.shields.io/npm/dm/mcpguard-cli)](https://www.npmjs.com/package/mcpguard-cli)
 
 **mcpguard** replaces plaintext API keys in your MCP config files with encrypted vault references. Credentials are stored securely in your OS keychain — never written to disk in plaintext.
 
@@ -29,7 +29,7 @@ mcpguard is a local-first CLI tool that:
 
 ```bash
 # Install
-npm install -g mcpguard
+npm install -g mcpguard-cli
 
 # Audit your current setup
 mcpguard audit
@@ -143,14 +143,12 @@ mcpguard automatically scans these locations:
 ### npm
 
 ```bash
-npm install -g mcpguard
+npm install -g mcpguard-cli
 ```
 
 ### Homebrew (macOS/Linux)
 
-```bash
-brew install mcpguard
-```
+> **Coming soon** — Homebrew formula will be available in a future release.
 
 ### From Source
 
