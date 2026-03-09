@@ -27,6 +27,9 @@
     "cursor"
   ],
   "author": "Julien Poitou",
+  "contributors": [
+    "Qwen Coder (AI Assistant)"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

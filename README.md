@@ -287,4 +287,4 @@ Report bugs and feature requests at [github.com/JulienPoitou/mcpguard/issues](ht
 
 ---
 
-**Built with ❤️ by [Julien Poitou](https://github.com/JulienPoitou)**
+**Built with ❤️ by [Julien Poitou](https://github.com/JulienPoitou) + [Qwen Coder](https://qwen.ai)**
