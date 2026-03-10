@@ -40,6 +40,10 @@ mcpguard migrate
 # Done! Your credentials are now secure
 ```
 
+## 🎬 Demo
+
+![mcpguard demo](./demo.gif)
+
 ## 📋 Commands
 
 ### `mcpguard audit`
